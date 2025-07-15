@@ -1,0 +1,18 @@
+[project]
+name = "documentation-helper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "asyncio>=3.4.3",
+    "beautifulsoup4>=4.13.4",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.68",
+    "langchain-google-genai>=2.1.7",
+    "langchain-pinecone>=0.2.8",
+    "langchain-text-splitters>=0.3.8",
+    "streamlit>=1.46.1",
+    "streamlit-chat>=0.1.1",
+]
